@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import Layout from '../components/lauout'
+import Head from 'next/head';
+import Layout from '../components/lauout';
 
 const Index = () => (
   <div>
     <Layout>
-      <h2>Desde Index</h2>
+      <h1 className="text 2x1 text-gray-800 font-light">Clientes</h1>
     </Layout>
   </div>
 )
